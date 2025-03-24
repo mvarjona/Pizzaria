@@ -1,12 +1,15 @@
-
-
 class Pizza{
-  Pizza({required this.title, required this.dateTime, required this.codigo, required this.sabor});
+  Pizza({required this.title, required this.codigo, required this.sabor, required this.preco});
 
   String title;
   String sabor;
-  DateTime dateTime;
   int codigo;
-  
+  double preco;
 
+
+
+  
 }
+
+
+

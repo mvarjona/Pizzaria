@@ -13,6 +13,7 @@ class AppPizzaria extends StatelessWidget {
     return const MaterialApp(
 
       home: CardapioPizza(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
