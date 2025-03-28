@@ -53,14 +53,15 @@ class _CardapioPizzaState extends State<CardapioPizza> {
                     )
                   ],
                 ),
-        
+               
                 for (var p in pizzas)
                  Card(
                   child:  ListTile(
-                     tileColor: const Color.fromARGB(255, 232, 248, 249),
+                     tileColor: const Color.fromARGB(255, 148, 152, 152),
                     title: Text(p.title),
                     subtitle: Text(p.sabor),
                     trailing: Text("R\$ ${p.preco.toString()},00"),
+                    leading: Image.network(p.icone, height: 10, width: 10,),
                     
                   ),
                  )
